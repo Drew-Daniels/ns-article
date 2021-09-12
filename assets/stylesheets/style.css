@@ -49,14 +49,48 @@ table {
 /* CSS RESET */
 /* My Code */
 
+:root {
+	--bg-1:        #ffffff;
+	--bg-2: 	   #f5f5f5;
+	--bright-blue: #00b3e5;
+	--light-gray:  #4d4d4d;
+	--dark-gray:   #4d4d4d;
+}
+
 @font-face { font-family: 'Telex-Regular'; src: url(../fonts/Telex-Regular.ttf) format('truetype')}
 
 * {
 	font-family: 'Telex-Regular';
 }
 
+ol {
+	counter-reset: item;
+	list-style-position: inside;
+}
+
+ol li {
+	counter-increment: item;
+	margin-bottom: 2px;
+	display: flex;
+	font-weight: bold;
+	color: var(--dark-gray);
+	padding: 5px;
+}
+
+ol li::after {
+	content: counter(item);
+	border-radius: 100%;
+	color: var(--bright-blue);
+	width: 1.2em;
+	align-self: center;
+	display: inline-block;
+	padding: 10px;
+	font-weight: bold;
+}
+
 a:link {
 	text-decoration: none;
+	color: inherit;
 }
 
 a:visited {
@@ -89,4 +123,8 @@ a:visited {
 #new-scientist-icon {
 	height: 3.5rem;
 	width: 21.875rem;
+}
+
+#other-articles-headlines li {
+	background-color: var(--bg-2);
 }
