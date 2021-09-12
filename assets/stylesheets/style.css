@@ -105,6 +105,11 @@ a {
 	text-transform: capitalize;
 }
 
+input[type="email"] {
+	border: none;
+	border-bottom: 1px solid black;
+}
+
 hr {
 	background-color: var(--light-gray);
 	border: 0;
