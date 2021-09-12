@@ -166,6 +166,11 @@ ul > li {
 	background-color: var(--bg-2);
 }
 
+#article-body a {
+	color: var(--bright-blue);
+	text-transform: none;
+}
+
 .sort-button {
 	background-color: var(--bg-2);
 	color: var(--black);
