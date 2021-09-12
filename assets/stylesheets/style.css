@@ -111,13 +111,19 @@ a:visited {
 
 #other-articles-sort-options {
 	display: flex;
+	justify-content: space-between;
 }
 
 #other-articles-sort-options li {
 	flex-grow: 1;
 }
 
-#socials li {
+ul > li {
+	display: flex;
+	justify-content: stretch;
+}
+
+#socials > li {
 	display: inline;
 }
 
@@ -150,8 +156,9 @@ a:visited {
 }
 
 .sort-button {
-	background-color: var(--gray);
-	color: var(--black)
+	background-color: var(--bg-2);
+	color: var(--black);
+	width: 100%;
 }
 
 .sort-button-selected {
