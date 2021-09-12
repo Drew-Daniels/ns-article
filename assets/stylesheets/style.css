@@ -101,8 +101,14 @@ ol li::after {
 	font-weight: bold;
 }
 
-a {
+nav > a {
 	text-transform: capitalize;
+	font-weight: bold;
+	color: var(--blue-gray);
+}
+
+nav > a.selected {
+	color: var(--bright-blue);
 }
 
 input[type="email"] {
@@ -118,7 +124,6 @@ hr {
 
 a:link {
 	text-decoration: none;
-	color: inherit;
 }
 
 a:visited {
