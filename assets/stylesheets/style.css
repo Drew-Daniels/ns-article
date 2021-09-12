@@ -55,7 +55,9 @@ table {
 	--bright-blue: #00b3e5;
 	--white:       #fff;
 	--gray:   	   #4d4d4d;
+	--light-gray:  #b3b3b3;
 	--black:       #000;
+	--blue-gray:   #0a303b;
 }
 
 @font-face { font-family: 'Telex-Regular'; src: url(../fonts/Telex-Regular.ttf) format('truetype')}
@@ -100,6 +102,12 @@ a {
 	text-transform: capitalize;
 }
 
+hr {
+	background-color: var(--light-gray);
+	border: 0;
+	height: 1px;
+}
+
 a:link {
 	text-decoration: none;
 	color: inherit;
@@ -107,6 +115,11 @@ a:link {
 
 a:visited {
 	color: inherit;
+}
+
+.header-flex {
+	display: flex;
+	justify-content: space-between;
 }
 
 #other-articles-sort-options {
