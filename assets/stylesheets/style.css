@@ -55,6 +55,14 @@ table {
 	font-family: 'Telex-Regular';
 }
 
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
+}
+
 .socials li {
 	display: inline;
 }
@@ -76,4 +84,9 @@ table {
 	flex-direction: column;
 	width: 30%;
 	background: blue;
+}
+
+#new-scientist-icon {
+	height: 3.5rem;
+	width: 21.875rem;
 }
