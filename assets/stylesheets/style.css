@@ -54,3 +54,7 @@ table {
 * {
 	font-family: 'Telex-Regular';
 }
+
+.socials li {
+	display: inline;
+}
