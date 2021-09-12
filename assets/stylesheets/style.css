@@ -58,6 +58,9 @@ table {
 	--light-gray:  #b3b3b3;
 	--black:       #000;
 	--blue-gray:   #0a303b;
+	--dark-blue:   #005587;
+	--turquoise:   #20b2aa;
+	--bright-red:  #ff0000;
 }
 
 @font-face { font-family: 'Telex-Regular'; src: url(../fonts/Telex-Regular.ttf) format('truetype')}
@@ -145,7 +148,7 @@ ul > li {
 
 #content-container {
 	display: flex;
-	width: 70%;
+	max-width: 1000px;
 	margin: auto;
 }
 
@@ -182,6 +185,27 @@ ul > li {
 #article-body a {
 	color: var(--bright-blue);
 	text-transform: none;
+}
+
+.std-button {
+	border-radius: 3px;
+	color: var(--white);
+}
+
+.dark-blue-bg {
+	background-color: var(--dark-blue);
+}
+
+.turquoise-bg {
+	background-color: var(--turquoise);
+}
+
+.bright-blue-bg {
+	background-color: var(--bright-blue);
+}
+
+.bright-red-bg {
+	background-color: var(--bright-red);
 }
 
 .sort-button {
