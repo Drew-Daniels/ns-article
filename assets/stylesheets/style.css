@@ -116,6 +116,9 @@ a:visited {
 
 #other-articles-sort-options li {
 	flex-grow: 1;
+	flex-shrink: 1;
+	margin-right: 2px;
+	margin-bottom: 2px;
 }
 
 ul > li {
@@ -127,9 +130,16 @@ ul > li {
 	display: inline;
 }
 
+#content-container {
+	display: flex;
+	width: 70%;
+	margin: auto;
+}
+
 #content {
 	display: flex;
 	flex-direction: row;
+	margin: auto;
 }
 
 #main {
@@ -137,6 +147,7 @@ ul > li {
 	flex-direction: column;
 	width: 70%;
 	background: red;
+	margin-right: 10px;
 }
 
 #aside {
