@@ -142,7 +142,7 @@ ul > li {
 	justify-content: stretch;
 }
 
-#socials > li {
+.socials > li {
 	display: inline;
 }
 
@@ -217,4 +217,16 @@ ul > li {
 .sort-button-selected {
 	background-color: var(--bright-blue);
 	color: var(--white);
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+footer > ul {
+	list-style-type: "\007C";
+}
+
+footer li {
+	display: inline;
 }
