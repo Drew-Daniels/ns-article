@@ -167,11 +167,12 @@ a:visited {
 }
 
 .card-image {
-
+	width: 150px;
 }
 
 #related-article-cards {
 	justify-content: space-between;
+	margin-top: 10px;
 }
 
 #other-articles-sort-options {
@@ -321,6 +322,7 @@ a > img {
 	color: var(--black);
 	width: 100%;
 	margin: 0;
+	font-size: 10px;
 }
 
 .sort-button-selected {
@@ -373,6 +375,10 @@ a > img {
 	width: 160px;
 }
 
+.article-additional-info {
+	margin-top: 10px;
+}
+
 #ways-to-view {
 	display: flex;
 	justify-content: space-between;
@@ -384,6 +390,16 @@ a > img {
 
 .ways-to-view-button-container {
 	width: 185px;
+}
+
+.related-articles-header {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: var(--black);
+}
+
+.related-topics-buttons-container {
+	display: inline-flex;
 }
 
 footer > ul {
