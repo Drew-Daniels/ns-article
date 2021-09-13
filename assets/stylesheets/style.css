@@ -85,6 +85,14 @@ h3 {
 	font-weight: bold;
 }
 
+figure {
+	margin: 10px 0;
+}
+
+figcaption {
+	font-size: 12px;
+}
+
 header {
 	max-width: 1000px;
 	margin: auto;
@@ -170,6 +178,16 @@ a:visited {
 	width: 150px;
 }
 
+.article-category {
+	font-weight: bold;
+	color: var(--gray);
+	text-transform: uppercase;
+}
+
+.article-metadata {
+	margin-top: 10px;
+}
+
 #related-article-cards {
 	justify-content: space-between;
 	margin-top: 10px;
@@ -224,6 +242,7 @@ a > img {
 
 .socials > li {
 	display: inline;
+	margin-right: 10px;
 }
 
 .horizontal-flex {
@@ -253,6 +272,15 @@ a > img {
 	display: inline-flex;
 	align-self: flex-start;
 	justify-self: flex-start;
+	margin-top: 20px;
+}
+
+.primary-figcaption {
+	font-weight: bold;
+}
+
+.social-icon {
+	width: 28px;
 }
 
 #content-container {
