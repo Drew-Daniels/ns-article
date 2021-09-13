@@ -177,6 +177,36 @@ ul > li {
 	justify-content: stretch;
 }
 
+nav li {
+	display: inline;
+}
+
+nav {
+	display: inline-block;
+}
+
+a > span,
+a > img {
+	vertical-align: middle;
+}
+
+.base-nav-item {
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.primary-nav-item {
+	color: var(--blue-gray);
+}
+
+.secondary-nav-item {
+	color: var(--bright-blue);
+}
+
+.highlighted-text {
+	color: var(--bright-blue);
+}
+
 .socials > li {
 	display: inline;
 }
@@ -274,8 +304,28 @@ ul > li {
 	color: var(--white);
 }
 
+.search-button {
+	background-color: transparent;
+	color: var(--blue-gray);
+	text-transform: capitalize;
+	margin: 0;
+	padding: 0;
+}
+
+button > img,
+button > span {
+	vertical-align: middle;
+}
+
 .uppercase {
 	text-transform: uppercase;
+}
+
+.nav-tools {
+	align-self: flex-end;
+	display: inline-flex;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 footer > ul {
