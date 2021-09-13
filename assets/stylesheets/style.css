@@ -79,6 +79,12 @@ h1 {
 	font-weight: bold;
 }
 
+h3 {
+	font-size: 1.5rem;
+	color: var(--black);
+	font-weight: bold;
+}
+
 header {
 	max-width: 1000px;
 	margin: auto;
@@ -87,12 +93,13 @@ header {
 
 footer {
 	max-width: 1000px;
-	margin: auto;
+	margin: 25px auto;
+	background-color: var(--bg-2);
 }
 
 button {
 	border: none;
-	padding: 10px;
+	padding: 5px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: white;
@@ -232,15 +239,25 @@ a > img {
 	flex-direction: column;
 }
 
+.inline-horizontal-flex {
+	display: inline-flex;
+}
+
 .card-caption {
 	color: var(--black);
 	font-weight: bold;
 }
 
+.socials-container {
+	display: inline-flex;
+	align-self: flex-start;
+	justify-self: flex-start;
+}
+
 #content-container {
 	display: flex;
 	max-width: 1000px;
-	margin: auto;
+	margin: 10px auto;
 }
 
 #content {
@@ -329,6 +346,12 @@ a > img {
 	align-items: center;
 }
 
+.sign-up-button {
+	padding: 5px 75px;
+	background-color: var(--dark-blue);
+
+}
+
 .uppercase {
 	text-transform: uppercase;
 }
@@ -348,6 +371,19 @@ a > img {
 	justify-content: space-between;
 	margin-left: 50px;
 	width: 160px;
+}
+
+#ways-to-view {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cover-image {
+	width: 185px;
+}
+
+.ways-to-view-button-container {
+	width: 185px;
 }
 
 footer > ul {
