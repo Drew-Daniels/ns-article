@@ -69,6 +69,10 @@ table {
 	font-family: 'Telex-Regular';
 }
 
+body {
+	color: var(--gray)
+}
+
 header {
 	max-width: 1000px;
 	margin: auto;
@@ -148,6 +152,14 @@ a:visited {
 	justify-content: space-between;
 }
 
+.card-image {
+
+}
+
+#related-article-cards {
+	justify-content: space-between;
+}
+
 #other-articles-sort-options {
 	display: flex;
 	justify-content: space-between;
@@ -183,6 +195,11 @@ ul > li {
 	flex-direction: column;
 }
 
+.card-caption {
+	color: var(--black);
+	font-weight: bold;
+}
+
 #content-container {
 	display: flex;
 	max-width: 1000px;
@@ -198,7 +215,7 @@ ul > li {
 #main {
 	display: flex;
 	flex-direction: column;
-	width: 70%;
+	width: 80%;
 	background: red;
 	margin-right: 10px;
 }
@@ -206,7 +223,7 @@ ul > li {
 #aside {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 20%;
 	background: blue;
 }
 
