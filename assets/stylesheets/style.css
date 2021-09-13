@@ -69,11 +69,23 @@ table {
 	font-family: 'Telex-Regular';
 }
 
+header {
+	max-width: 1000px;
+	margin: auto;
+}
+
+footer {
+	max-width: 1000px;
+	margin: auto;
+}
+
 button {
 	border: none;
 	padding: 10px;
 	font-weight: bold;
 	text-transform: uppercase;
+	color: white;
+	border-radius: 3px;
 }
 
 ol {
