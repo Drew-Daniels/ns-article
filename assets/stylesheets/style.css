@@ -69,6 +69,10 @@ table {
 	font-family: 'Telex-Regular';
 }
 
+form {
+	margin-bottom: 15px;
+}
+
 body {
 	color: var(--gray)
 }
@@ -192,6 +196,30 @@ a:visited {
 	margin-top: 10px;
 }
 
+.cookie-settings-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+ul.pipe-delimited li {
+	border-right: 1px solid black;
+	padding: 0 10px;
+}
+
+ul.pipe-delimited li a::first-letter {
+	text-transform: uppercase;
+}
+
+ul.pipe-delimited li:last-child {
+	border-right: 0;
+	padding-right: 0;
+}
+
+.footer-nav-item {
+	color: var(--black);
+}
+
 #related-article-cards {
 	justify-content: space-between;
 	margin-top: 10px;
@@ -209,7 +237,7 @@ a:visited {
 	margin-bottom: 2px;
 }
 
-ul > li {
+ul li {
 	display: flex;
 	justify-content: stretch;
 }
@@ -285,6 +313,12 @@ a > img {
 
 .social-icon {
 	width: 28px;
+}
+
+.footer-nav {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
 }
 
 #content-container {
