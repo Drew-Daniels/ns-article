@@ -73,6 +73,12 @@ body {
 	color: var(--gray)
 }
 
+h1 {
+	font-size: 3.125rem;
+	color: var(--black);
+	font-weight: bold;
+}
+
 header {
 	max-width: 1000px;
 	margin: auto;
@@ -305,17 +311,22 @@ a > img {
 	color: var(--white);
 }
 
+.sign-in-button {
+	color: var(--blue-gray);
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
 .search-button {
 	background-color: transparent;
 	color: var(--blue-gray);
 	text-transform: capitalize;
+	font-weight: bold;
 	margin: 0;
 	padding: 0;
-}
-
-button > img,
-button > span {
-	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .uppercase {
@@ -334,8 +345,9 @@ button > span {
 	align-self: flex-end;
 	display: inline-flex;
 	align-items: flex-start;
-	justify-content: flex-start;
+	justify-content: space-between;
 	margin-left: 50px;
+	width: 160px;
 }
 
 footer > ul {
