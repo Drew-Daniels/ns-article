@@ -47,6 +47,7 @@ table {
 }
 
 /* CSS RESET */
+/* Link to Original Article:  https://www.newscientist.com/article/2286218-ancient-lake-in-marss-gale-crater-may-have-actually-been-a-small-pond/*/
 /* My Code */
 
 :root {
@@ -226,10 +227,12 @@ ul.pipe-delimited li:last-child {
 
 .related-article-container {
 	display: flex;
-	background-color: var(--light-gray);
+	background-color: var(--bg-2);
 	height: 20px;
 	margin: 10px;
+	padding: 5px;
 	color: var(--black);
+	align-items: center;
 }
 
 #related-article-cards {
@@ -262,9 +265,8 @@ nav {
 	display: inline-block;
 }
 
-a > span,
 a > img {
-	vertical-align: middle;
+	vertical-align: text-bottom;
 }
 
 .base-nav-item {
