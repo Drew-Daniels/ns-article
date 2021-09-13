@@ -76,6 +76,7 @@ body {
 header {
 	max-width: 1000px;
 	margin: auto;
+	margin-top: 15px;
 }
 
 footer {
