@@ -321,11 +321,20 @@ button > span {
 	text-transform: uppercase;
 }
 
+.bold {
+	font-weight: bold;
+}
+
+.soft-text {
+	color: var(--light-gray);
+}
+
 .nav-tools {
 	align-self: flex-end;
 	display: inline-flex;
 	align-items: flex-start;
 	justify-content: flex-start;
+	margin-left: 50px;
 }
 
 footer > ul {
