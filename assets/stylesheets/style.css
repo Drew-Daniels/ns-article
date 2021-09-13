@@ -86,6 +86,7 @@ button {
 	text-transform: uppercase;
 	color: white;
 	border-radius: 3px;
+	margin: 5px;
 }
 
 ol {
@@ -168,6 +169,20 @@ ul > li {
 	display: inline;
 }
 
+.horizontal-flex {
+	display: flex;
+}
+
+.vertical-flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.inline-vertical-flex {
+	display: inline-flex;
+	flex-direction: column;
+}
+
 #content-container {
 	display: flex;
 	max-width: 1000px;
@@ -234,6 +249,7 @@ ul > li {
 	background-color: var(--bg-2);
 	color: var(--black);
 	width: 100%;
+	margin: 0;
 }
 
 .sort-button-selected {
