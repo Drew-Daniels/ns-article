@@ -73,6 +73,10 @@ body {
 	color: var(--gray)
 }
 
+p {
+	padding-top: 10px;
+}
+
 h1 {
 	font-size: 3.125rem;
 	color: var(--black);
